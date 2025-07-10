@@ -1,0 +1,10 @@
+{{Navbox|template=Template:<!-- name of the template -->
+|title=<!-- displayed title of the navbox -->
+|name1= <!-- Optional
+|list1={{#cargo_query:tables=_pageData
+  <!-- replace "Items" with the category you want to display -->
+  |fields=_pageName
+  |where=_categories HOLDS "Items" AND _pageNamespace="0"
+  }}
+|format=ul
+}}

@@ -1,0 +1,10 @@
+{{Navbox|template=Items Navbox
+|title=Items in SORCERER
+|list1={{#cargo_query:
+  tables=_pageData
+  |where=_categories HOLDS "Items" AND _pageNamespace="0"
+  |fields=_pageName
+  |format=ul
+}}
+
+}}

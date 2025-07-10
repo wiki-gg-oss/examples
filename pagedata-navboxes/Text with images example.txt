@@ -1,0 +1,10 @@
+{{Navbox|template=Items Navbox
+|title=Items in SORCERER
+|list1={{#cargo_query:
+  tables=_pageData
+  |where=_categories HOLDS "Items" AND _pageNamespace="0"
+  |fields=CONCAT("[[File:",_pageName,".png{{!}}20x20px]] [[",_pageName,"]]")=field
+  |format=ul
+}}
+
+}}
